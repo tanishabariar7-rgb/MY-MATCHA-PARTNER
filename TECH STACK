@@ -1,0 +1,125 @@
+💻 Tech Stack
+
+Frontend Technologies
+
+React.js
+
+React.js is used to build a dynamic and responsive user interface. Its component-based architecture allows different sections of the application, such as the dashboard, task manager, mood tracker, and analytics page, to be developed and maintained efficiently.
+
+HTML5
+
+HTML5 provides the fundamental structure of the application. It is used to organize content, forms, navigation menus, and interactive elements throughout the platform.
+
+CSS3
+
+CSS3 is responsible for the visual design of the application. It enables responsive layouts, smooth animations, custom themes, and the aesthetic study environments such as the Library, Coffee Shop, and Japanese Café backgrounds.
+
+JavaScript
+
+JavaScript powers the interactive functionality of the platform, including task management, Pomodoro timers, reward calculations, mood tracking, and real-time user interactions.
+
+
+---
+
+Backend Technologies
+
+Node.js
+
+Node.js serves as the backend runtime environment, handling application logic, user requests, data processing, and communication between the frontend and database.
+
+Express.js
+
+Express.js is used to create RESTful APIs that manage user authentication, task data, study analytics, friend connections, and reward system operations.
+
+
+---
+
+Database
+
+MongoDB
+
+MongoDB is used as the primary database for storing and managing user information, including profiles, tasks, study history, mood records, review habits, rewards, and analytics data. Its flexible document-based structure makes it suitable for handling diverse user-generated data.
+
+
+---
+
+Authentication and Security
+
+Firebase Authentication
+
+Firebase Authentication provides secure user registration and login functionality. It supports email-based authentication and ensures that user data remains protected through secure authentication mechanisms.
+
+
+---
+
+Adaptive Learning Engine
+
+Custom Recommendation System
+
+A custom-built adaptive learning engine analyzes user behavior, including:
+
+Attention span
+
+Task completion patterns
+
+Revision frequency
+
+Mistake trends
+
+Daily mood tracking
+
+
+Based on these factors, the system generates personalized study recommendations, adaptive Pomodoro schedules, and revision suggestions to improve learning efficiency.
+
+
+---
+
+Analytics System
+
+Performance Tracking Module
+
+The analytics module collects and processes study-related data to generate insights such as:
+
+Daily study time
+
+Productivity trends
+
+Focus performance
+
+Revision consistency
+
+Goal completion rates
+
+
+These insights help students understand their learning habits and make informed improvements.
+
+
+---
+
+Deployment and Hosting
+
+Vercel / Netlify
+
+Used for deploying and hosting the frontend application, ensuring fast loading times, scalability, and reliable accessibility.
+
+Render / Railway
+
+Used for backend deployment and API hosting, providing stable server performance and database connectivity.
+
+
+---
+
+Development Tools
+
+Git
+
+Git is used for version control, enabling efficient tracking of code changes and collaborative development.
+
+GitHub
+
+GitHub serves as the central repository for source code management, project collaboration, documentation, issue tracking, and deployment integration.
+
+
+---
+
+Together, these technologies create a scalable, secure, and intelligent platform that delivers personalized study planning, adaptive learning recommendations, productivity tracking, and an engaging gamified experience for students through My Matcha Study Planner. 🍵📚🚀
