@@ -1,0 +1,263 @@
+📂 Project Structure
+
+The My Matcha Study Planner project follows a modular and organized architecture to ensure scalability, maintainability, and efficient development. Each folder has a specific responsibility within the application.
+
+my-matcha-study-planner/
+│
+├── public/
+│   ├── images/
+│   ├── icons/
+│   └── backgrounds/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── models/
+│   ├── context/
+│   ├── hooks/
+│   ├── utils/
+│   ├── assets/
+│   ├── styles/
+│   └── App.js
+│
+├── server/
+│   ├── controllers/
+│   ├── routes/
+│   ├── middleware/
+│   ├── models/
+│   ├── services/
+│   └── server.js
+│
+├── database/
+│
+├── docs/
+│
+├── package.json
+│
+└── README.md
+
+Folder Description
+
+📁 public/
+
+Contains static files that are directly accessible by the application.
+
+images/ – Character avatars, reward items, and illustrations.
+
+icons/ – Navigation and feature icons.
+
+backgrounds/ – Study environment images such as Library, Coffee Shop, and Japanese Café.
+
+
+
+---
+
+📁 src/
+
+The main frontend directory containing all user interface and client-side functionality.
+
+📁 components/
+
+Reusable UI components used across the application, such as:
+
+Task Cards
+
+Mood Selector
+
+Pomodoro Timer
+
+Navigation Bar
+
+Reward Panel
+
+Progress Charts
+
+
+📁 pages/
+
+Contains individual application screens:
+
+Home Page
+
+Profile Page
+
+Tasks Page
+
+Analytics Dashboard
+
+Friends Page
+
+Settings Page
+
+
+📁 services/
+
+Handles communication between the frontend and backend APIs.
+
+Examples:
+
+Authentication Service
+
+Task Service
+
+Analytics Service
+
+Friend Management Service
+
+
+📁 models/
+
+Defines the data structures used within the application, such as:
+
+User Model
+
+Task Model
+
+Study Habit Model
+
+Reward Model
+
+Mood Model
+
+
+📁 context/
+
+Manages global application state including:
+
+User session data
+
+Theme settings
+
+Reward balances
+
+Study progress
+
+
+📁 hooks/
+
+Custom React hooks used for reusable application logic.
+
+📁 utils/
+
+Helper functions and utility methods used throughout the project.
+
+📁 assets/
+
+Stores local media files, animations, and UI resources.
+
+📁 styles/
+
+Contains CSS files, themes, and responsive design configurations.
+
+
+---
+
+📁 server/
+
+The backend directory responsible for application logic and API management.
+
+📁 controllers/
+
+Processes incoming requests and executes business logic.
+
+Examples:
+
+User Controller
+
+Task Controller
+
+Analytics Controller
+
+
+📁 routes/
+
+Defines API endpoints used by the frontend.
+
+Examples:
+
+Authentication Routes
+
+Task Routes
+
+Friend Routes
+
+Analytics Routes
+
+
+📁 middleware/
+
+Contains security and validation mechanisms such as:
+
+Authentication verification
+
+Error handling
+
+Request validation
+
+
+📁 models/
+
+Database schemas used by MongoDB.
+
+Examples:
+
+User Schema
+
+Task Schema
+
+Habit Schema
+
+Reward Schema
+
+
+📁 services/
+
+Implements advanced backend functionalities such as:
+
+Adaptive Recommendation Engine
+
+Mood Analysis Module
+
+Analytics Processing System
+
+
+
+---
+
+📁 database/
+
+Stores database configuration files and connection settings for MongoDB.
+
+
+---
+
+📁 docs/
+
+Contains project documentation, diagrams, reports, and deployment guides.
+
+
+---
+
+Architecture Flow
+
+1. Users interact with the frontend interface.
+
+
+2. React components send requests to backend APIs.
+
+
+3. The Node.js and Express server processes requests.
+
+
+4. MongoDB stores and retrieves user data.
+
+
+5. The Adaptive Learning Engine analyzes study behavior.
+
+
+6. Personalized recommendations and analytics are returned to the user dashboard.
+
+
+
+This structure ensures that My Matcha Study Planner remains organized, scalable, and capable of supporting future enhancements such as AI-powered recommendations, advanced analytics, and collaborative study features. 🍵📚🚀
